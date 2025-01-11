@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvoGlow - Discover Radiant Skin with Avocado Oil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'avocado': '#002E1D',
+                        'lime': '#B4D147',
+                        'stone': '#8A8A5C',
+                        'olive': '#9B9B69',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="min-h-screen bg-avocado">
+        <!-- Navigation -->
+        <nav class="flex items-center justify-between px-6 py-4 bg-white">
+            <div class="text-xl font-bold">AvoGlow</div>
+            <div class="flex gap-8">
+                <a href="#" class="border-b-2 border-avocado">Home</a>
+                <a href="#" class="text-gray-600">About</a>
+                <a href="#" class="text-gray-600">Products</a>
+                <a href="#" class="text-gray-600">Blogs</a>
+            </div>
+            <button class="px-6 py-2 text-white rounded bg-avocado">
+                Contact Us
+            </button>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="relative px-6 py-12">
+            <div class="max-w-7xl mx-auto grid grid-cols-2 gap-8">
+                <!-- Left Column -->
+                <div class="pt-20">
+                    <p class="text-lime mb-4">
+                        GET 50% OFF 5 BOTTLES OF OUR PRODUCT
+                    </p>
+                    <h1 class="text-5xl font-serif text-white mb-6 leading-tight">
+                        Discover Radiant Skin with Avocado Oil
+                    </h1>
+                    <p class="text-gray-300 mb-8 max-w-lg">
+                        Experience the power of nature with our luxurious, cold-pressed Avocado Oil. 
+                        Rich in antioxidants and essential fatty acids, it nourishes and revitalizes your 
+                        skin, leaving it feeling soft, supple, and glowing.
+                    </p>
+                    <button class="px-8 py-3 bg-lime text-avocado rounded-md font-medium">
+                        Shop Now
+                    </button>
+
+                    <!-- Stats -->
+                    <div class="flex gap-12 mt-20">
+                        <div class="text-white">
+                            <div class="text-3xl font-bold">30K+</div>
+                            <div class="text-sm text-gray-400">Satisfied Customers</div>
+                        </div>
+                        <div class="text-white">
+                            <div class="text-3xl font-bold">80K+</div>
+                            <div class="text-sm text-gray-400">Products Purchased</div>
+                        </div>
+                        <div class="text-white">
+                            <div class="text-3xl font-bold">90K+</div>
+                            <div class="text-sm text-gray-400">Product Reviews</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="relative">
+                    <div class="absolute top-4 right-4 bg-white py-2 px-4 rounded-full flex items-center gap-2 shadow-lg z-10">
+                        <div class="w-6 h-6 bg-avocado rounded-full flex items-center justify-center">
+                            <span class="text-white text-xs">✓</span>
+                        </div>
+                        <span class="text-sm">Ever Radiant Glow</span>
+                    </div>
+
+                    <div class="absolute bottom-32 left-0 bg-white py-2 px-4 rounded-full flex items-center gap-2 shadow-lg z-10">
+                        <div class="w-8 h-8 bg-gray-200 rounded-full"></div>
+                        <div>
+                            <div class="text-sm">Our Happy Customer</div>
+                            <div class="flex items-center">
+                                <span class="text-sm font-medium">4.5</span>
+                                <span class="text-xs text-gray-500 ml-1">Reviews</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-olive rounded-lg p-8 h-full relative">
+                        <!-- Avocado Oil Bottle -->
+                        <img
+                            src="/placeholder.svg?height=400&width=200"
+                            alt="Avocado oil bottle"
+                            width="200"
+                            height="400"
+                            class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20"
+                        />
+                        
+                        <!-- Decorative Avocados -->
+                        <div class="absolute right-12 top-12">
+                            <img
+                                src="/placeholder.svg?height=100&width=100"
+                                alt="Fresh avocado"
+                                width="100"
+                                height="100"
+                                class="rounded-full"
+                            />
+                        </div>
+                        <div class="absolute left-12 bottom-12">
+                            <img
+                                src="/placeholder.svg?height=120&width=120"
+                                alt="Fresh avocado"
+                                width="120"
+                                height="120"
+                                class="rounded-full"
+                            />
+                        </div>
+                        <div class="absolute right-24 bottom-24">
+                            <img
+                                src="/placeholder.svg?height=80&width=80"
+                                alt="Fresh avocado"
+                                width="80"
+                                height="80"
+                                class="rounded-full"
+                            />
+                        </div>
+                        
+                        <!-- Stone/Platform -->
+                        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 w-3/4 h-24 bg-stone rounded-lg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
